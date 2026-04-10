@@ -1,0 +1,22 @@
+{
+    "version": "0.0.1",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/admiral-io/admiral-cli/releases/download/v0.0.1/admiral-v0.0.1_windows_x86_64.zip",
+            "bin": [
+                "admiral-v0.0.1_windows_x86_64/admiral.exe"
+            ],
+            "hash": "4956023dec668aebda739fe7fe34e56fa7ac75a0d2b3dcc8885ad7e41c43aa37"
+        },
+        "arm64": {
+            "url": "https://github.com/admiral-io/admiral-cli/releases/download/v0.0.1/admiral-v0.0.1_windows_arm64.zip",
+            "bin": [
+                "admiral-v0.0.1_windows_arm64/admiral.exe"
+            ],
+            "hash": "f8429ea2b0b2f20efd815b46d303fcf2b8b48566e63952a17ca1dd70c21d111b"
+        }
+    },
+    "homepage": "https://admiral.io",
+    "license": "Apache-2.0",
+    "description": "Admiral - Platform Orchestrator CLI for managing clusters, runners, and service accounts."
+}
