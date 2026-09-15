@@ -2,7 +2,7 @@
 
 # Scoop Bucket for Admiral
 
-This is the official [Scoop](https://scoop.sh) bucket for [Admiral](https://admiral.io/) tools on Windows.
+This is the official [Scoop](https://scoop.sh) bucket for the [Admiral](https://admiral.io/) CLI on Windows.
 
 ## Available Manifests
 
@@ -10,23 +10,14 @@ This is the official [Scoop](https://scoop.sh) bucket for [Admiral](https://admi
 | --------- | -------------------------------------------- | ---------- |
 | `admiral` | Command-line client for the Admiral platform | Apache-2.0 |
 
-> Only the `admiral` CLI is distributed via Scoop. The `admiral-server` (platform orchestrator server and web UI) is macOS/Linux only and is not available for Windows.
-
 ## Installation
-
-First, add the bucket:
 
 ```powershell
 scoop bucket add admiral-io https://github.com/admiral-io/scoop-bucket
-```
-
-Then install the CLI:
-
-```powershell
 scoop install admiral-io/admiral
 ```
 
-Or in a single command without adding the bucket first:
+Or install directly from the manifest without adding the bucket:
 
 ```powershell
 scoop install https://raw.githubusercontent.com/admiral-io/scoop-bucket/master/bucket/admiral.json
@@ -45,6 +36,12 @@ scoop update admiral
 scoop uninstall admiral
 ```
 
+To remove the bucket as well:
+
+```powershell
+scoop bucket rm admiral-io
+```
+
 ## Supported Platforms
 
 | OS      | Architecture |
@@ -52,14 +49,12 @@ scoop uninstall admiral
 | Windows | x86_64       |
 | Windows | arm64        |
 
-## macOS and Linux
+## Other Install Methods
 
-macOS and Linux users should install `admiral` (and `admiral-server`) via the [Homebrew tap](https://github.com/admiral-io/homebrew-tap):
+- **macOS and Linux:** install via the [Homebrew tap](https://github.com/admiral-io/homebrew-tap) with `brew install admiral-io/tap/admiral`.
+- **Linux packages, Docker, and standalone binaries:** see the [admiral-cli releases](https://github.com/admiral-io/admiral-cli/releases).
 
-```sh
-brew install admiral-io/tap/admiral
-brew install admiral-io/tap/admiral-server
-```
+The Admiral server is not distributed through this bucket.
 
 ## License
 
