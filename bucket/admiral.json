@@ -1,19 +1,19 @@
 {
-    "version": "0.5.0",
+    "version": "0.6.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/admiral-io/admiral-cli/releases/download/v0.5.0/admiral-v0.5.0_windows_x86_64.zip",
+            "url": "https://github.com/admiral-io/admiral-cli/releases/download/v0.6.0/admiral-v0.6.0_windows_x86_64.zip",
             "bin": [
-                "admiral-v0.5.0_windows_x86_64/admiral.exe"
+                "admiral-v0.6.0_windows_x86_64/admiral.exe"
             ],
-            "hash": "64e162a169201706981878cd68483b00ced300cc77feb1c133d8310b8d80b4cf"
+            "hash": "c76884ec5533b228bd1997782f5b6d1d41609f75beab0fcaa31773e68d89a0ca"
         },
         "arm64": {
-            "url": "https://github.com/admiral-io/admiral-cli/releases/download/v0.5.0/admiral-v0.5.0_windows_arm64.zip",
+            "url": "https://github.com/admiral-io/admiral-cli/releases/download/v0.6.0/admiral-v0.6.0_windows_arm64.zip",
             "bin": [
-                "admiral-v0.5.0_windows_arm64/admiral.exe"
+                "admiral-v0.6.0_windows_arm64/admiral.exe"
             ],
-            "hash": "0915573f1b1446e545345cc77c13f219b297339117aabba26d99eae527909d37"
+            "hash": "39832b8ec7e4b41efb728e87a5aa3ab21ea8448b9cc037fb019c16118e9bba89"
         }
     },
     "homepage": "https://admiral.io",
