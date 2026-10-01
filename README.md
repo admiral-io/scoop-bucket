@@ -1,6 +1,6 @@
 # Scoop Bucket for Admiral
 
-This is the official [Scoop](https://scoop.sh) bucket for the [Admiral](https://admiral.io/) CLI on Windows.
+This is the official [Scoop](https://scoop.sh) bucket for the [Admiral](https://admiral.io/?utm_source=github&utm_medium=referral&utm_campaign=scoop-bucket) CLI on Windows.
 
 ## Available Manifests
 
@@ -53,6 +53,12 @@ scoop bucket rm admiral-io
 - **Linux packages, Docker, and standalone binaries:** see the [admiral-cli releases](https://github.com/admiral-io/admiral-cli/releases).
 
 The Admiral server is not distributed through this bucket.
+
+## Getting help
+
+- A problem installing through this bucket: [open an issue](https://github.com/admiral-io/scoop-bucket/issues/new/choose)
+- A bug in the CLI itself: [admiral-cli](https://github.com/admiral-io/admiral-cli/issues/new/choose)
+- Anything else about [Admiral](https://admiral.io/?utm_source=github&utm_medium=referral&utm_campaign=scoop-bucket): [admiral-community](https://github.com/admiral-io/admiral-community)
 
 ## License
 
